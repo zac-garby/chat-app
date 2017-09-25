@@ -1,0 +1,36 @@
+form#msg-form {
+    position: absolute;
+    bottom: 0;
+    left: 300px;
+    right: 0;
+    height: 42px;
+    border-top: 1px solid #DBDBDB;
+    border-bottom-right-radius: 3px;
+    padding: 3px;
+    background: white;
+}
+
+form#msg-form input {
+    padding-left: 5px;
+    border: 0;
+    width: 85%;
+    height: 100%;
+    outline: none;
+    font-size: 13pt;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+form#msg-form button {
+    cursor: pointer;
+    float: right;
+    background: white;
+    border: 1px solid #DBDBDB;
+    border-radius: 2px;
+    padding: 10px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    bottom: 3px;
+}

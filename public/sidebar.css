@@ -1,0 +1,89 @@
+table.sidebar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 300px;
+    border-right: 1px solid #DBDBDB;
+}
+
+table.sidebar h1 {
+    font-size: 10pt;
+    padding: 10px;
+    padding-bottom: 3px;
+    font-weight: normal;
+}
+
+table.sidebar ul {
+    list-style: none;
+    font-size: 10pt;
+    padding: 10px;
+}
+
+table.sidebar input {
+    width: calc(100% - 10px);
+    margin: 5px;
+    padding: 5px;
+    font-size: 10pt;
+    outline: 0;
+    margin-bottom: 0;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    color: #666666;
+}
+
+table.sidebar input:last-child {
+    margin-bottom: 5px;
+}
+
+table.sidebar tr:last-child {
+    border-top: 1px solid #DBDBDB;
+}
+
+table.sidebar td.users div.colour {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: sub;
+    margin-right: 7px;
+}
+
+table.sidebar td.users li {
+    margin-bottom: 8px;
+}
+
+table.sidebar td.users li:last-child {
+    margin-bottom: 0;
+}
+
+table.sidebar td.users {
+    height: calc(100% - 150px);
+    vertical-align: top;
+}
+
+table.sidebar td.rooms, table.sidebar td.options {
+    border-top: 1px solid #DBDBDB;
+    height: 75px;
+}
+
+table.sidebar td.rooms h1 span {
+    font-weight: bold;
+}
+
+td.rooms form input[type=text] {
+    display: inline-block;
+    width: 60%;
+}
+
+td.rooms form input[type=submit] {
+    width: 33%;
+    float: right;
+    background-color: white;
+    cursor: pointer;
+}
+
+td.rooms form input[type=submit]:active {
+    background-color: #E9E9E9;
+}
